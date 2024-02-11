@@ -22,13 +22,13 @@ Include all items used to build project.
 
 
 ## Results  
-- You can find Original images in the `starter` folder and the generated images in the `results` folder.
+- You can find Original images in the `starter` folder and the generated images in the `results` folder.  
+
 ![image4]  
 Generate image     |  Generate image |  Generate image
 :-------------------------:|:-------------------------:|:-------------------------:
 ![][image1]                | ![][image2]               |![][image3]  
 ![][image7]                | ![][image8]               |![][image9]  
-
 
 ## License
 
