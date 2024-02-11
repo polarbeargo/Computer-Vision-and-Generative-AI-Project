@@ -1,54 +1,34 @@
-# README Template
+# Computer Vision And Generative AI
+[image1]: ./results/image1.png
+[image2]: ./results/image.png
+[image3]: ./results/image2.png
+[image4]: ./results/AppView.png
+[image5]: ./starter/car.png
+[image6]: ./starter/dragon.jpeg
+[image7]: ./results/image3.png
+[image8]: ./results/image4.png
+[image9]: ./results/image5.png
+[image10]:./starter/monalisa.png
+The Segment Anything Model (SAM) is used to construct a mask around the specified object, and the most accurate mask is chosen. Creating a simple app that allows users to select a subject and then change its background, or to keep the background and change the subject. The user is given the option of accepting the result or refining the mask with more points. Once the mask is complete, the user enters a text description (and perhaps a negative prompt) to choose a new background for the selected object, which is generated using a text2image diffusion model and shown as the final image.
 
-Below is a template provided for use when building your README file for students.
+## Libraries
+Include all items used to build project.  
+* pytorch
+* diffusers 
+* transformers
+* gradio
+* numpy
+* PIL
 
-# Project Title
 
-Project description goes here.
+## Results  
+- You can find Original images in the `starter` folder and the generated images in the `results` folder.
+![image4]  
+Generate image     |  Generate image |  Generate image
+:-------------------------:|:-------------------------:|:-------------------------:
+![][image1]                | ![][image2]               |![][image3]  
+![][image7]                | ![][image8]               |![][image9]  
 
-## Getting Started
-
-Instructions for how to get a copy of the project running on your local machine.
-
-### Dependencies
-
-```
-Examples here
-```
-
-### Installation
-
-Step by step explanation of how to get a dev environment running.
-
-List out the steps
-
-```
-Give an example here
-```
-
-## Testing
-
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
-
-## Project Instructions
-
-This section should contain all the student deliverables for this project.
-
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
 
 ## License
 
