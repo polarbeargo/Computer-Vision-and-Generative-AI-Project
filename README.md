@@ -21,8 +21,8 @@ Include all items used to build project.
 * PIL
 
 
-## Results  
-- You can find Original images in the `starter` folder and the generated images in the `results` folder.  
+## Results Achieved 
+- You can find original images in the `starter` folder and the generated images in the `results` folder.  
 
 ![image4]  
 Generate image     |  Generate image |  Generate image
@@ -30,6 +30,9 @@ Generate image     |  Generate image |  Generate image
 ![][image1]                | ![][image2]               |![][image3]  
 ![][image7]                | ![][image8]               |![][image9]  
 
+- Demonstrate proficiency in loading and using the Segment Anything Model (SAM) to segment objects.
+- Demonstrate proficiency in loading a pretrained AutoPipelineForInpainting from the diffusers library.
+- Use the interavtive app, showing they understand how to run SAM to segment the subject and substitute the background or the subject with text prompts.
 ## License
 
 [License](LICENSE.txt)
